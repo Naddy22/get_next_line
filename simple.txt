@@ -1,0 +1,9 @@
+Coucou
+La vie est belle
+Pourquoi je suis là?
+Tu veux un cookie?
+
+1/ voir le ft_strjoin
+2/ regler probleme de memoire leaks
+3/ m'ecris null alors que devrais me mettre /n ou 0 etc..
+4/ pas assez de memoire alloué

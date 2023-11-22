@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nadege <nadege@student.42.fr>              +#+  +:+       +#+        */
+/*   By: namoisan <namoisan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 14:54:03 by namoisan          #+#    #+#             */
-/*   Updated: 2023/11/20 21:28:27 by nadege           ###   ########.fr       */
+/*   Updated: 2023/11/22 14:09:55 by namoisan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,7 @@ char	*ft_strjoin(char *s1, const char *s2);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *s1);
 char	*delete_buf_line(char *buf);
+void	ft_bzero(void *s, size_t n);
+char	*fill_buffer(char *buf, int fd);
 
 #endif
